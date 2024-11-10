@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     S(KC_0)  , S(KC_1)  , S(KC_2)  , S(KC_3)  , S(KC_4)  ,                            S(KC_5)  , S(KC_6)  , S(KC_7)  , S(KC_8)  , S(KC_9)  ,
     KC_F5    , KC_EXLM  , S(KC_6)  ,S(KC_INT3), S(KC_8)  ,                            KC_RALT  , KC_MINS  , KC_EQL   , KC_LBRC  , KC_RBRC  ,
     S(KC_EQL),S(KC_LBRC),S(KC_7)   , S(KC_2)  ,S(KC_RBRC),                            S(KC_MINS), S(KC_EQL), S(KC_LBRC), S(KC_RBRC), S(KC_BSLS),
-    KC_INT1  , KC_EQL   , S(KC_3)  , _______  , _______  , _______  ,      TO(2)    , TO(0)    , _______  , KC_RALT  , KC_RGUI  , KC_F12
+    KC_INT1  , _______ , _______  , _______  , _______  , _______  ,      TO(2)    , TO(0)    , _______  , KC_RALT  , KC_RGUI  , KC_F12
   ),
 };
 // clang-format on
