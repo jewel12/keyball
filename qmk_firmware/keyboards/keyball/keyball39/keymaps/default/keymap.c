@@ -63,21 +63,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [1] = LAYOUT_universal(
-    S(KC_0)  , S(KC_1)  , S(KC_2)  , S(KC_3)  , S(KC_4)  ,                            S(KC_5)  , S(KC_6)  , S(KC_7)  , S(KC_8)  , S(KC_9)  ,
+    S(KC_1)  , S(KC_2)  , S(KC_3)  , S(KC_4)  ,                            S(KC_5)  , S(KC_6)  , S(KC_7)  , S(KC_8)  , S(KC_9)  , S(KC_0)  , 
     KC_F5    , KC_EXLM  , S(KC_6)  ,S(KC_INT3), S(KC_8)  ,                           S(KC_INT1), KC_BTN1  , KC_PGUP  , KC_BTN2  , KC_SCLN  ,
     S(KC_EQL),S(KC_LBRC),S(KC_7)   , S(KC_2)  ,S(KC_RBRC),                            KC_LBRC  , KC_DLR   , KC_PGDN  , KC_BTN3  , KC_F11   ,
     KC_INT1  , KC_EQL   , S(KC_3)  , _______  , _______  , _______  ,      MO(1)    , MO(2)    , _______  , KC_RALT  , KC_RGUI  , KC_F12
   ),
 
   [2] = LAYOUT_universal(
-    KC_0     , KC_1     , KC_2     , KC_3     , KC_4     ,                            KC_5     , KC_6     , KC_7     , KC_8     , KC_9     ,
+    KC_1     , KC_2     , KC_3     , KC_4     ,                            KC_5     , KC_6     , KC_7     , KC_8     , KC_9     , KC_0     , 
    S(KC_QUOT), KC_4     , KC_5     , KC_6     ,S(KC_SCLN),                            S(KC_9)  , KC_BTN1  , KC_UP    , KC_BTN2  , KC_QUOT  ,
     KC_SLSH  , KC_1     , KC_2     , KC_3     ,S(KC_MINS),                           S(KC_NUHS), KC_LEFT  , KC_DOWN  , KC_RGHT  , _______  ,
     KC_ESC   , KC_0     , KC_DOT   , KC_DEL   , KC_ENT   , KC_BSPC  ,      _______  , _______  , _______  , _______  , _______  , _______
   ),
 
   [3] = LAYOUT_universal(
-    S(KC_0)  , S(KC_1)  , S(KC_2)  , S(KC_3)  , S(KC_4)  ,                            S(KC_5)  , S(KC_6)  , S(KC_7)  , S(KC_8)  , S(KC_9)  ,
+    S(KC_1)  , S(KC_2)  , S(KC_3)  , S(KC_4)  ,                            S(KC_5)  , S(KC_6)  , S(KC_7)  , S(KC_8)  , S(KC_9)  , S(KC_0)  , 
     KC_F5    , KC_EXLM  , S(KC_6)  ,S(KC_INT3), S(KC_8)  ,                            KC_RALT  , KC_MINS  , KC_EQL   , KC_LBRC  , KC_RBRC  ,
     S(KC_EQL),S(KC_LBRC),S(KC_7)   , S(KC_2)  ,S(KC_RBRC),                            S(KC_MINS), S(KC_EQL), S(KC_LBRC), S(KC_RBRC), S(KC_BSLS),
     KC_INT1  , _______ , _______  , _______  , _______  , _______  ,      TO(2)    , TO(0)    , _______  , KC_RALT  , KC_RGUI  , KC_F12
